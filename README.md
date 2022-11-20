@@ -1,10 +1,12 @@
 # 🤖・Bota BİLEREK 3 Farklı Hata Bırakıldı
-⭐・3 Hatayıda Çözüp Botu Başlatabilirsiniz
+⭐・__3 Hatayıda Çözüp Botu Başlatabilirsiniz__
 # 
 
 # 📞・İLETİŞİM
 💙・**Discord:** ArviS#0011
-🔗・**Sunucum:** (ArviS #Private)[https://discord.gg/3AfAFE5qYg]
+
+🔗・**Sunucum:** [ArviS #Private](https://discord.gg/3AfAFE5qYg)
+
 💜・**İnstagram:** @arvis_here
 #
 
