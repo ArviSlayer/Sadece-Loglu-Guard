@@ -7,7 +7,7 @@
 
 🔗・**Destek Sunucusu:** [Tıkla](https://discord.gg/3AfAFE5qYg)
 
-💜・**İnstagram:** [Tıkla](https://www.instagram.com/arvis_here/)
+💜・**Instagram:** [Tıkla](https://www.instagram.com/arvis_here/)
 #
 
 # 🖼️・GÖRSELLER
