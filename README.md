@@ -1,14 +1,14 @@
 # 🤖・Bota BİLEREK 3 Farklı Hata Bırakıldı
-3 Hatayıda Çözüp Botu Başlatabilirsiniz
+⭐・3 Hatayıda Çözüp Botu Başlatabilirsiniz
 # 
 
-# İLETİŞİM
-> Discord: ArviS#0011
-
-> İnstagram: @arvis_here
+# 📞・İLETİŞİM
+💙・**Discord:** ArviS#0011
+🔗・**Sunucum:** (ArviS #Private)[https://discord.gg/3AfAFE5qYg]
+💜・**İnstagram:** @arvis_here
 #
 
-# GÖRSELLER
+# 🖼️・GÖRSELLER
 ![image](https://user-images.githubusercontent.com/69751083/202910668-61fa9f98-49bd-4496-bc5f-065e986e33f5.png)
 
 ![image](https://user-images.githubusercontent.com/69751083/202910670-778574cb-f6d9-4a9d-b56c-2cfd8325dbc8.png)
