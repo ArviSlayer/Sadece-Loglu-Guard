@@ -9,3 +9,4 @@
 #
 
 # GÖRSELLER
+https://media.discordapp.net/attachments/997105193256747028/1043907967663226970/image.png
