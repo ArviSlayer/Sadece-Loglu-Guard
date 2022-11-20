@@ -1,0 +1,33 @@
+{
+  "name": "arvis0011-sadece-loglu-guard",
+  "version": "1.0.0",
+  "description": "ArviS#0011 - Komutsuz, Sadece Loglu Guard",
+  "main": "arvis.js",
+  "scripts": {
+    "arvis:dev": "nodemon arvis.js"
+    },
+
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ArviSlayer/Discord-Sadece-Loglu-Guard.git"
+    },
+
+    "author": "ArviS#0011",
+    "license": "MIT",
+
+    "bugs": {
+      "url": "https://github.com/ArviSlayer/Discord-Sadece-Loglu-Guard/issues"
+    },
+
+    "homepage": "https://github.com/ArviSlayer/Discord-Sadece-Loglu-Guard#readme",
+    "dependencies": {
+    "@discordjs/rest": "^1.0.0",
+    "croxydb": "^0.0.7",
+    "discord.js": "^14.3.0",
+    "express": "^4.18.1",
+    "fs": "^0.0.2",
+    "lodash.uniqwith": "^4.5.0",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.20"
+  }
+}
