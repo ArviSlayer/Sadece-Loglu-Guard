@@ -53,10 +53,8 @@ client.on(Events.GuildBanAdd, async ban => {
   const channel = db.fetch(`banlog_${ban.guild.id}`)
   if(!channel) return;
   client.channels.cache.get(channel).send(`**Yasaklanan:** ${ban.user.tag} \n\n**Yasaklayan:**${executor.tag}`)
-  ban.guild.roles.create({name: "Cezalı", permissions:[]}).then(m => {
+})
 
-})
-})
 
 client.on("roleDelete", async role => {
   const log = await role.guild.fetchAuditLogs({
@@ -70,9 +68,6 @@ client.on("roleDelete", async role => {
       const channel = db.fetch(`rollog`)
       if(!channel) return;
       client.channels.cache.get(channel).send(`**Silinen Rol:** ${role.name} \n\n**Silen Yetkili:** ${executor.tag}`)
-      role.guild.roles.create({name: "Cezalı", permissions:[]}).then(m => {
-    role.guild.members.cache.get(executor.id).roles.set([m]).catch(error => {})
-      })
 })
 
 
@@ -88,22 +83,4 @@ client.on("channelDelete", async(channel) => {
 const channels = db.fetch(`${channel.guild.id}`)
 if(!channels) return;
 client.channels.cache.get(channels).send(`**Silinen Kanal:** ${channel.name} \n\n**Silen Yetkili:** ${executor.tag}`)
-channel.guild.roles.create({name: "Cezalı", permissions:[]}).then(m => {
-channel.guild.members.cache.get(executor.id).roles.set([m]).catch(error => {})
-})
-})
-client.on(Events.GuildMemberRemove, async member => {
-	const fetchedLogs = await member.guild.fetchAuditLogs({
-		limit: 1,
-		type: AuditLogEvent.MemberKick,
-	});
-  if(!fetchedLogs) return;
-	const kickLog = fetchedLogs.entries.first();
-  const { executor, target } = kickLog;
-
-const channel = db.fetch(`kicklog_${member.guild.id}`)
-if(!channel) return;
-client.channels.cache.get(channel).send(`**Atılan Üye:** ${member.user.tag} \n\n**Üyeyi Atan:** ${executor.tag}`)
-member.guild.roles.create({name: "Cezalı", permissions:[]}).then(m => {
-member.guild.members.cache.get(executor.id).roles.set([m]).catch(error => {})})
 })
